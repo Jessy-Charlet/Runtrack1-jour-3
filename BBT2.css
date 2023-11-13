@@ -1,0 +1,98 @@
+a{
+	all :unset;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+ }
+body {
+    height: 100%;
+    background: linear-gradient(#00e1ff, black);
+    background-color: black;
+    background-repeat: no-repeat;
+	font-family: Verdana, sans-serif; 
+	font-size: 100%;
+ }
+h1 {
+    text-align: center;
+	font-size: 500%; 
+	color: #00e1ff; 
+    font-weight: 900;
+    line-height: 150%;
+ }
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	width: 100%;
+    margin: 7% 0;
+}
+.mphoto {
+    width: 80%;
+    margin-left: 10%;
+}
+.mphoto:hover{
+    box-shadow: 0 0 200px white;
+}
+.mphotop {
+    width: 50%;
+    margin-left: 25%;
+}
+.mphotop:hover{
+    box-shadow: 0 0 200px white;
+}
+p {
+	background-color: #0dc0f7;
+	text-align: center;
+	margin: 20px 25% 0 25%;
+	padding: 30px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50px 50px 0 0;
+}
+#ficheperso {
+    background: linear-gradient(#005169, #3ef9ff55);
+	padding: 30px;
+	margin: 20px 8% 20px 8%;
+	text-align: left;
+	border: 10px white solid;
+	border-radius: 5% 5% 150% 5%;
+	vertical-align: top;
+	overflow: hidden;
+    box-shadow: 0 0 100px white;
+}
+#nom {
+	all: unset;
+	display: block;
+	padding: 3% 3% 3% 10%;
+	font-size: 250%;
+	width: 1000%;
+	color: white;
+    background-color: black;
+	font-family: impact;
+	text-transform: uppercase;
+	font-weight: 300;
+    border-radius: 0 0 0 100px;
+
+}
+#profil{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+}
+#ficheperso div {
+	display: inline-block;
+}
+#ficheperso div ul {
+	list-style: none;
+	width: 100%;
+	margin-left: 0;
+	line-height: 200%;
+	font-size: 150%;
+	padding: 0 0 0 10%;
+	font-weight: 400;
+    color: white;
+}
+
+#ficheperso h1{
+    display:none;
+}
